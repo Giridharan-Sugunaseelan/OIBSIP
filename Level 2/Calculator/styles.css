@@ -7,6 +7,12 @@
     background-color: white
 }
 
+.outerContainer {
+    border: 1px solid rgba(165, 165, 165, 0.8);
+    padding: 10px;
+    border-radius: 25px;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -27,13 +33,9 @@ button {
 .buttonsContainer {
     display: grid;
     grid-template-columns: repeat(4, 100px);
-    grid-template-rows: repeat(6, 75px);
+    grid-template-rows: repeat(5, 75px);
     gap: 5px;
     justify-content: center;
-}
-
-.span2 {
-    grid-column: span 2;
 }
 
 .equals {
@@ -58,6 +60,7 @@ button {
     align-items: end;
     justify-content: space-around;
     font-size: 1.5rem;
+    padding-right: 10px;
     background-color: rgba(241, 241, 241, 0.8);
 }
 
@@ -69,6 +72,7 @@ button {
     font-size: 2rem;
     background-color: rgba(241, 241, 241, 0.8);
     margin-bottom: 2px;
+    padding-right: 10px;
     word-wrap: break-word;
     word-break: break-all;
 }
